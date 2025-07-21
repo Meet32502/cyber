@@ -216,7 +216,15 @@ def main():
             </ul>
         </div>
         """, unsafe_allow_html=True)
-                st.markdown("""
+
+
+
+
+
+
+
+        
+        st.markdown("""
         <div class="info-box">
             <h4>📘 Reference Guidelines</h4>
             <details>
