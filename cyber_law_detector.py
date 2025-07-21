@@ -216,6 +216,43 @@ def main():
             </ul>
         </div>
         """, unsafe_allow_html=True)
+                st.markdown("""
+        <div class="info-box">
+            <h4>📘 Reference Guidelines</h4>
+            <details>
+            <summary><strong>Community Guidelines</strong></summary>
+            <ul>
+                <li><a href="https://www.youtube.com/howyoutubeworks/policies/community-guidelines/" target="_blank">YouTube: Hate, threats, privacy</a></li>
+                <li><a href="https://help.instagram.com/477434105621119" target="_blank">Instagram: Bullying, nudity, impersonation</a></li>
+                <li><a href="https://transparency.fb.com/policies/community-standards/" target="_blank">Facebook: Misinformation, violence</a></li>
+                <li><a href="https://help.twitter.com/en/rules-and-policies/twitter-rules" target="_blank">X (Twitter): Privacy, abuse</a></li>
+                <li><a href="https://www.redditinc.com/policies/content-policy" target="_blank">Reddit: Harassment, doxxing</a></li>
+                <li><a href="https://discord.com/guidelines" target="_blank">Discord: Illegal content, threats</a></li>
+            </ul>
+            </details>
+            
+            <details>
+            <summary><strong>Cyber Law References</strong></summary>
+            <ul>
+                <li><a href="https://www.meity.gov.in/content/information-technology-act" target="_blank">IT Act 2000 (India)</a></li>
+                <li><a href="https://prsindia.org/billtrack/digital-personal-data-protection-bill-2023" target="_blank">DPDP Act 2023 (India)</a></li>
+                <li><a href="https://gdpr-info.eu" target="_blank">GDPR (EU)</a></li>
+                <li><a href="https://oag.ca.gov/privacy/ccpa" target="_blank">CCPA (California)</a></li>
+                <li><a href="https://www.hhs.gov/hipaa/index.html" target="_blank">HIPAA (USA)</a></li>
+                <li><a href="https://www.iso.org/isoiec-27001-information-security.html" target="_blank">ISO/IEC 27001</a></li>
+            </ul>
+            </details>
+            
+            <details>
+            <summary><strong>Institutional Guidelines</strong></summary>
+            <ul>
+                <li><a href="https://www.ugc.gov.in/pdfnews/3195884_Guidelines-for-Cyber-Security-in-Higher-Education-Institutions.pdf" target="_blank">UGC Cybersecurity Guidelines</a></li>
+                <li><em>College IT Policy (custom link if hosted)</em></li>
+            </ul>
+            </details>
+        </div>
+        """, unsafe_allow_html=True)
+
         
         # Theme toggle (basic)
         theme = st.selectbox("🎨 Theme", ["Light", "Dark"])
